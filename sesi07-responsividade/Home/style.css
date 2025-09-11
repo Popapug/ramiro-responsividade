@@ -1,9 +1,9 @@
 :root {
-    --blue1: #313321;
-    --blue2: #373D20;
-    --blue3: #717744;
-    --yellow: #BCBD88;
-    --orange: #766153;
+    --blue1: #8ecae6;
+    --blue2: #2696ca;
+    --blue3: #023047;
+    --yellow: #ffb703;
+    --orange: #fb8500;
 }
 
 * {
@@ -63,7 +63,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 30px;
     min-height: 80vh;
     height: auto;
 }
@@ -80,14 +80,14 @@ body {
 }
 
 .bottom-card h2 {
-    color: var(--blue1);
+    color: var(--orange);
     font-size: 32px;
     text-shadow: 0 4px 4px #090909;
     margin-bottom: 10px;
 }
 
 .bottom-card p {
-    color: var(--blue1);
+    color: var(--blue3);
     font-size: 20px;
 }
 
@@ -118,21 +118,6 @@ button:hover {
 .line3 {
     display: none;
 
-}
-
-.top-card{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.top-card img{
-    width: 100%;
-    height: auto;
-    transform: scale(1.5);
-   margin: 0 auto;
 }
 
 @media (width >=768px) {
@@ -178,16 +163,16 @@ button:hover {
     .line2 {
         width: 90vw;
         height: 5px;
-        border: var(--blue2);
-        background-color: var(--blue2);
+        border: var(--orange);
+        background-color: var(--orange);
         display: block;
     }
 
     .line3 {
         width: 90vw;
         height: 5px;
-        border: var(--blue2);
-        background-color: var(--blue2);
+        border: var(--orange);
+        background-color: var(--orange);
         display: block;
     }
 }
